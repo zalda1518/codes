@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgb(138, 255, 96);
+}
+
+#main{
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    flex-direction: column;
+    padding: 1.5%;
+    background-color: rgb(131, 255, 86);
+    width: 95%;
+}
+#header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    padding: 5px;
+    background-color: rgb(131, 255, 86);
+}
+#decodificador{
+    color: black;
+    background-color:rgb(173, 180, 165) ;
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+    border: solid 1px rgb(253, 253, 253);
+    font-size: larger;
+    padding: 2%;
+    border-radius: 5px;
+}
+#televisor{
+    color: black;
+    background-color:rgb(173, 180, 165) ;
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+    border: solid 1px rgb(255, 255, 255);
+    font-size: larger;
+    padding: 2%;
+    border-radius: 5px;
+}
+.imagenes{
+    background-color: rgb(131, 255, 86);
+    display: flex;
+    width: 90%;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.img{
+    display: flex;
+    width: 100%;
+    
+}
+.btns{
+    display: flex;
+    width: 20%;
+    margin: 2%;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 8%;
+    padding: 1%;
+    
+}
+
+.ayudas{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.bloques{
+    display: flex;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+#tigoimg{
+    display: flex;
+    width: 10%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+@media(min-width:1024px){
+
+    #main{
+        display: flex;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+        padding: 1.5%;
+        background-color: rgb(131, 255, 86);
+        width: 20%;
+        border: solid 1px white;
+        border-radius: 10px;
+    }
+
+    #header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    padding: 5px;
+    background-color: rgb(131, 255, 86);
+    }
+
+    #decodificador{
+        color: black;
+        background-color:rgb(173, 180, 165) ;
+        display: flex;
+        text-decoration: none;
+        margin: auto;
+        border: solid 1px rgb(253, 253, 253);
+        font-size: small;
+        padding: 2%;
+        border-radius: 5px;
+    }
+    #televisor{
+        color: black;
+        background-color:rgb(173, 180, 165) ;
+        display: flex;
+        text-decoration: none;
+        margin: auto;
+        border: solid 1px rgb(255, 255, 255);
+        font-size: small;
+        padding: 2%;
+        border-radius: 5px;
+    }
+
+     #ayuda{
+         justify-content: center;
+     }
+
+}
